@@ -1,4 +1,3 @@
-![image](https://github.com/user-attachments/assets/28203486-0561-4fdc-abe0-66aac325a240)# Music Recommendation Form
 
 A simple web form to collect music recommendations, storing user inputs in a MySQL database.
 
