@@ -1,0 +1,151 @@
+body {
+    font-family: 'Robotop', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: var(--color-white);
+    margin: 0;
+}
+
+body::before {
+    content: "";
+    background-image: linear-gradient(115deg, rgba(80, 58, 158, 0.514),
+            rgba(136, 136, 206, 0.192)), url('https://dbkpop.com/wp-content/uploads/2021/10/billlie_members_profile.jpg');
+    background-size: cover;
+    /* Adjusts the image size to cover the entire area */
+    background-position: center;
+    /* Centers the image */
+    position: fixed;
+    /* Stays fixed in the background */
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    /* Places the image behind other content */
+    opacity: 0.78;
+    /* Adjusts the opacity of the background image */
+    ;
+
+}
+
+p {
+    font-size: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    width: auto;
+    padding-top: 0;
+    margin: 0;
+    letter-spacing: normal;
+    white-space: nowrap;
+    color: white;
+    height: 40px;
+}
+
+#description {
+    top: 0;
+    padding-top: 0px;
+    text-align: center;
+    font-style: italic;
+    color: white;
+}
+
+#title {
+    padding: 50px 0 0 0;
+}
+
+#description {
+    padding: 0 0 0 0;
+}
+
+form {
+    color: white;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    font-size: 1.25em;
+    margin-bottom: 0.5rem;
+
+}
+
+.form-control {
+    font-size: inherit;
+    margin: 0.5em 0 0.5em 0;
+    border-radius: 10px;
+    border-color: rgba(195, 32, 228, 0.26);
+    padding: 0.6rem 0.75rem;
+    width: 100%;
+    box-shadow: 0px 10px 20px rgba(77, 4, 58, 0.568);
+
+}
+
+.container {
+    flex: 1;
+    margin: auto;
+    padding: 40px;
+    max-width: 900px;
+    background-color: rgba(23, 3, 39, 0.616);
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.678);
+}
+
+input,
+button,
+select,
+textarea {
+    margin: 10px;
+}
+
+footer {
+    display: flex;
+    background-color: rgba(4, 0, 12, 0.781);
+    color: white;
+
+    justify-content: center;
+    bottom: 0;
+    margin-top: 8em;
+    padding: 20px 0px  20px 0px;
+    width: 100%;
+
+}
+
+.input-checkbox,.input-radio {
+    display: inline-block;
+    margin-right: 0.625rem;
+    min-height: 1.25rem;
+    min-width: 1.25rem;
+  }
+
+.text-areas {
+    width: 100%;
+    box-shadow: 0px 10px 20px rgba(77, 4, 58, 0.568);
+    min-height: 120px;
+    resize: vertical;
+    padding: 0.625rem;
+    font-size: inherit;
+    border-radius: 20px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background-color: rgb(14, 209, 134);
+    color: inherit;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+footer h3 {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+
+}

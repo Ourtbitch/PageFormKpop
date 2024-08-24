@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form To Recommend Music</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+
+    <h1 id="title">Form To Recommend Music</h1>
+    <p id="description">This form was created so that more people can discover new music to listen to.</p>
+    <div class="container">
+        <form id="survey-form" method="POST" action="procesar_formulario.php">
+            <div class="form-group">
+                <label id="name-label">Name</label>
+                <input id="name" type="text" required placeholder="Your name" class="form-control" name="nombre">
+            </div>
+            <div class="form-group">
+                <label id="email-label">Email</label>
+                <input id="email" type="email" required placeholder="Your mail" class="form-control" name="correo">
+            </div>
+            <div class="form-group">
+                <label id="number-label">Age</label>
+                <input id="number" type="number" min="18" max="99" placeholder="Your age" class="form-control" name="edad">
+            </div>
+            <div class="form-group">
+                <p>Select the type of music you want to recommend.</p>
+                <select id="dropdown" class="form-control" name="type">
+                    <option disabled selected value>Select a genre</option>
+                    <option>Kpop</option>
+                    <option>Pop</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <p>Is the artist a BoyGroup (BG), GirlGroup (GG), or soloist?</p>
+                <label>
+                    <input name="group-recommend" value="Boygroup" class="input-radio" type="radio" checked>BoyGroup
+                </label>
+                <label>
+                    <input name="group-recommend" value="solist" class="input-radio" type="radio">Solist
+                </label>
+                <label>
+                    <input name="group-recommend" value="girlgroup" class="input-radio" type="radio">GirlGroup
+                </label>
+            </div>
+            <div class="form-group">
+                <p>Select which platform you use</p>
+                <label><input type="checkbox" value="spotify" name="prefer[]" class="input-checkbox">Spotify</label>
+                <label><input type="checkbox" value="apple-music" name="prefer[]" class="input-checkbox">Apple Music</label>
+                <label><input type="checkbox" value="tidal" name="prefer[]" class="input-checkbox">Tidal</label>
+                <label><input type="checkbox" value="youtube" name="prefer[]" class="input-checkbox">YouTube</label>
+            </div>
+            <div class="form-group">
+                <p>Comment your music</p>
+                <label>
+                    <textarea id="comments" class="text-areas" name="comments" placeholder="Introduce the name of the music" required></textarea>
+                </label>
+            </div>
+            <div class="form-group">
+                <button type="submit" id="submit" class="submit button" name="register">Submit</button>
+            </div>
+        </form>
+    </div>
+    <footer>
+        <h3>Created by @Ourtbitch
+            <img src="ogeiogeio.png" alt="ogeio" height="40px">
+            <img src="partidazolujan.webp" alt="partidazolujan" height="40px">
+        </h3>
+    </footer>
+
+</body>
+</html>
