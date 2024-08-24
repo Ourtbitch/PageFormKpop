@@ -1,4 +1,4 @@
-# Music Recommendation Form
+![image](https://github.com/user-attachments/assets/28203486-0561-4fdc-abe0-66aac325a240)# Music Recommendation Form
 
 A simple web form to collect music recommendations, storing user inputs in a MySQL database.
 
@@ -25,3 +25,9 @@ HTML: Structure
 CSS: Styling
 PHP: Backend logic
 MySQL: Data storage
+
+
+page preview:
+![image](https://github.com/user-attachments/assets/b7abd89a-4a06-4974-a166-f87c9aab12a2)
+![image](https://github.com/user-attachments/assets/84e2bb70-7684-42d8-a21b-c44aa20db2e9)
+
